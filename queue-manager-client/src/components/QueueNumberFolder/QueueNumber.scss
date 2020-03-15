@@ -1,0 +1,46 @@
+.QueueNumber {
+  display: flex;
+  width: 100%;
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .cover {
+    width: 50%;
+  }
+  .controls {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &.small {
+    height: 13vh;
+
+    .details {
+        width: 100%;
+    }
+  }
+
+  &.medium {
+    height: 20vh;
+    
+    .details {
+        width: 50%;
+    }
+  }
+
+  &.large {
+    height: 30vh;
+
+    .details {
+        width: 50%;
+    }
+  }
+}
